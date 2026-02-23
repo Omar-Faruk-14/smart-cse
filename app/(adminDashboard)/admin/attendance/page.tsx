@@ -10,10 +10,8 @@ import {
   Save,
   Calendar,
   FileText,
-  CheckCircle2,
   Search,
   UserCheck,
-  AlertCircle,
 } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
