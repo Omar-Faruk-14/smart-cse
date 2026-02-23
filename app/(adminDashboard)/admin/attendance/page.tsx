@@ -22,13 +22,13 @@ type Status = "P" | "A" | "L";
 export default function AttendanceSheetPage() {
   const { data: session, status } = useSession();
 
-  // ফিল্টার স্টেটস
+  // all filter state
   const [semester, setSemester] = useState("");
   const [batch, setBatch] = useState("");
   const [course, setCourse] = useState("");
   const [selectedMonth, setSelectedMonth] = useState("");
 
-  // ডাটা স্টেটস
+  // all state
   const [courseList, setCourseList] = useState<any[]>([]);
   const [allStudents, setAllStudents] = useState<any[]>([]);
   const [students, setStudents] = useState<any[]>([]);
